@@ -7,5 +7,6 @@
 - 解説
   - https://asnokaze.hatenablog.com/entry/2019/04/08/020017
   - https://github.com/flano-yuki/http3-note/blob/master/http3-note_3.pdf
+  - https://twitter.com/bokken_/status/1534875207579860992
 - RFC 9204
   - https://datatracker.ietf.org/doc/html/rfc9204
