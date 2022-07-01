@@ -5,3 +5,12 @@
 - 暗号化の見直し基準とか、Active Directoryの設定とか参考になりそう
 - https://www.handa-hospital.jp/topics/2022/0616/report_02.pdf
 - https://www.handa-hospital.jp/topics/2022/0616/index.html
+
+
+### クレジットカード番号等取扱業者メタップスペイメント：クレジットカード番号等の適切な管理に違反
+
+- 二度にわたって脆弱性診断の結果報告書を改ざんしたあげく脆弱性が悪用され被害に遭った
+- 平文のフル桁のカード番号を閲覧することができた
+- SQLインジェクションを500エラーログで攻撃失敗だったと判断
+- https://twitter.com/yuhokameda/status/1542640827746615296
+- https://www.meti.go.jp/press/2022/06/20220630007/20220630007.html
