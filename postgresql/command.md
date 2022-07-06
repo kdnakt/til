@@ -33,3 +33,4 @@
   - v12だと自動更新はない
     - REFRESH MATERIALIZED VIEWコマンドで更新
     - CONCURRENTLYをつけるとSELECTをロックしない、ただしデータがない初回はエラーになる
+  - https://www.postgresql.jp/document/12/html/sql-creatematerializedview.html
