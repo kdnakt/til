@@ -25,3 +25,11 @@
 - ビュー一覧を表示する
   - ¥dv
   - ¥dv+ （サイズも表示する）
+
+### マテリアライズドビュー関連
+
+- CREATE MATERIALIZED VIEW table_name AS query
+  - queryのところに `SELECT column_name FROM other_table_name` みたいに書く
+  - v12だと自動更新はない
+    - REFRESH MATERIALIZED VIEWコマンドで更新
+    - CONCURRENTLYをつけるとSELECTをロックしない、ただしデータがない初回はエラーになる
