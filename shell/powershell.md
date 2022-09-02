@@ -16,3 +16,17 @@
 function GitStatus { git status }
 set-alias s GitStatus
 ```
+
+### UUID生成
+
+- https://torutk.hatenablog.jp/entry/20160519/p1
+
+```
+PS D:\> [Guid]::NewGuid()
+
+Guid
+----
+95997df5-edae-430e-9f65-f0784e1e62c6
+
+PS D:\>
+```
