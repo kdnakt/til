@@ -30,3 +30,8 @@ Guid
 
 PS D:\>
 ```
+
+### プロファイルをリロードする
+
+- `& $PROFILE`
+- https://devblogs.microsoft.com/scripting/powertip-reload-your-powershell-profile/
