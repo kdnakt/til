@@ -39,3 +39,9 @@ INSERT INTO sal_emp
     VALUES ('Bill',
     ARRAY[10000, 10000, 10000, 10000]);
 ```
+
+### jsonbカラムのlike
+
+- https://stackoverflow.com/questions/42918348/postgresql-json-like-query
+- `WHERE jsonbColumn->>'jsonAttr' LIKE '%foo%'`
+
