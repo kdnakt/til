@@ -17,3 +17,10 @@
 
 - https://dev.classmethod.jp/articles/s3-bucket-antivirus-lambda/
 - https://github.com/bluesentry/bucket-antivirus-function
+
+### cybozuのセキュリティチェックシート
+
+- https://www.cybozu.com/jp/support/#security_check_sheet
+- ベースになっているのは以下
+　　- [総務省](https://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000167.html)
+　　- [経産省](https://www.meti.go.jp/policy/netsecurity/downloadfiles/cloudsec2013fy.pdf)
