@@ -22,5 +22,5 @@
 
 - https://www.cybozu.com/jp/support/#security_check_sheet
 - ベースになっているのは以下
-　　- [総務省](https://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000167.html)
-　　- [経産省](https://www.meti.go.jp/policy/netsecurity/downloadfiles/cloudsec2013fy.pdf)
+  - [総務省](https://www.soumu.go.jp/menu_news/s-news/01ryutsu02_02000167.html)
+  - [経産省](https://www.meti.go.jp/policy/netsecurity/downloadfiles/cloudsec2013fy.pdf)
