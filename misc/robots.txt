@@ -1,0 +1,7 @@
+
+
+### Google検索のインデックス登録を避ける
+
+- noindex robots メタタグまたは X-Robots-Tag HTTP ヘッダーを使用
+  - robots.txt でそのページを不許可にしてはいけない（クロールできなくなるので
+- https://developers.google.com/search/docs/crawling-indexing/robots/robots-faq?hl=ja
