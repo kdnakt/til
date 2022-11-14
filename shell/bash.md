@@ -9,3 +9,12 @@ do
   echo $i
 done
 ```
+
+### 配列をハードコードする
+
+```
+week=(Sun Mon Tues Wed Thur Fri Sat)
+echo ${week[0]}
+// Sun
+```
+
