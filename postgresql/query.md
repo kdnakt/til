@@ -45,3 +45,17 @@ INSERT INTO sal_emp
 - https://stackoverflow.com/questions/42918348/postgresql-json-like-query
 - `WHERE jsonbColumn->>'jsonAttr' LIKE '%foo%'`
 
+
+### ループで大量データのインサート
+
+- pgadminで実行可
+
+```
+do $$
+begin
+  for r in 1..1000 loop
+    // 任意のINSERT文。文末にセミコロン必須
+  end loop;
+end;
+$$;
+```
