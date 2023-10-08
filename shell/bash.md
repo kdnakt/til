@@ -23,7 +23,9 @@ echo ${week[0]}
 - 以下は.movファイルの例
 
 ```
-$ ls | xargs -I {} bash -c 'mv "$1" $(date -r "$1" +%Y%m%d-%H%M%S).mov' - {}
+$ ls | xargs -I {} bash -c 'mv "$1" $(GetFileInfo -d "$1" | sed "s#^\(..\)/\(..\)/\(....\) \(..\):\(..\):\(..\)#\3\1\2-\4\5\6#").mov' - {}
 ```
 
-- 参考：https://stackoverflow.com/questions/39479151/how-to-use-xargs-to-replace-2-arguments
+- 参考
+  - https://stackoverflow.com/questions/39479151/how-to-use-xargs-to-replace-2-arguments
+  - https://stackoverflow.com/questions/34123076/osx-how-to-get-the-creation-modification-time-of-a-file-from-the-command-lin
